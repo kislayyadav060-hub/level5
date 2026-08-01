@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
             </style>
         </head>
         <body>
-            <h1>Welcome to My AI Website</h1>
+            <h1>Welcome</h1>
 
             <img
                 src="https://static.boredpanda.com/blog/wp-content/uploads/2015/07/gorilla-middle-finger-bob-pitchford-bristol-zoo-1.jpg"
