@@ -9,10 +9,10 @@ dotenv.config();
 
 
 app.get("/health",(req,res)=>{
-    return res.json({message:"all ok."});
+    return res.status(200).json({message:"all ok."});
 });
 app.get("/", (req, res) => {
-    res.send(`
+    res.status(200).send(`
         <!DOCTYPE html>
         <html>
         <head>
