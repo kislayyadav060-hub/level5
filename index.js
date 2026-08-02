@@ -8,9 +8,9 @@ dotenv.config();
 
 
 
-// app.get("/",(req,res)=>{
-//     return res.json({message:"hello from ai"});
-// });
+app.get("/health",(req,res)=>{
+    return res.json({message:"all ok."});
+});
 app.get("/", (req, res) => {
     res.send(`
         <!DOCTYPE html>
